@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ALTEC | Mantenimiento y Reparación de Aires Acondicionados</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <i class="fas fa-snowflake icon-logo"></i>
+      <div class="logo-text">
+        <h1>ALTEC</h1>
+        <p>Mantenimiento y Reparación de Aires Acondicionados</p>
+      </div>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <nav id="nav">
+      <ul>
+        <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#servicios"><i class="fas fa-tools"></i> Servicios</a></li>
+        <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h2 id="frase-dinamica">Tu confort, nuestra especialidad</h2>
+      <p>
+        Expertos en instalación, mantenimiento y reparación de sistemas de aire acondicionado para hogares y empresas.
+      </p>
+      <a href="#contacto" class="btn-presupuesto">Solicitar Presupuesto</a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1581091215367-59ab6b5c58d5?auto=format&fit=crop&w=800&q=80" alt="Instalación de aire acondicionado" />
+        <div class="card-info">
+          <h3>Instalación</h3>
+          <p>Montaje profesional de equipos split, centrales y portátiles. Garantizamos eficiencia y seguridad.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1606813902744-1d54d5bfb327?auto=format&fit=crop&w=800&q=80" alt="Mantenimiento de aire acondicionado" />
+        <div class="card-info">
+          <h3>Mantenimiento</h3>
+          <p>Prevenimos fallas, limpiamos filtros y aseguramos el máximo rendimiento de tus equipos.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1591176482076-dcdbbc0b4015?auto=format&fit=crop&w=800&q=80" alt="Reparación de aire acondicionado" />
+        <div class="card-info">
+          <h3>Reparación</h3>
+          <p>Detectamos y solucionamos fallas eléctricas o de gas con rapidez y garantía.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section id="contacto" class="contacto">
+  <div class="contacto-header">
+    <h2 class="titulo-contacto">📞 Contáctanos</h2>
+    <p class="subtitulo-contacto">¡Estamos listos para atenderte y resolver todas tus necesidades de aire acondicionado!</p>
+  </div>
+
+  <ul class="info">
+    <li class="contact-item">
+      <i class="fab fa-whatsapp"></i>
+      <a href="https://wa.me/5974815832" target="_blank">Enviar mensaje al WhatsApp</a>
+    </li>
+    <li class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:bladimirgaleano1999@gmail.com">bladimirgaleano1999@gmail.com</a>
+    </li>
+  </ul>
+
+  <form id="contactForm">
+    <input type="text" id="nombre" placeholder="Tu nombre" required />
+    <input type="email" id="email" placeholder="Tu correo" required />
+    <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+    <button type="submit" class="btn-form">Enviar</button>
+  </form>
+  <div id="mensajeExito" class="mensaje-exito"></div>
+</section>
+
+
+
+  <footer>
+    <p>© 2025 ALTEC - Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
